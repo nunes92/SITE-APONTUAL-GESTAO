@@ -2,5 +2,7 @@
   "name": "Apontual Gestão Contábil",
   "description": "Abra sua empresa sem burocracia, migre de MEI para ME ou reduza seus impostos com segurança. Atendimento direto pelo WhatsApp com contador registrado no CRC-GO.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
