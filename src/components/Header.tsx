@@ -81,9 +81,14 @@ export function Header({ currentPage, onNavigate }: HeaderProps) {
           <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-lg bg-white border border-slate-200/90 flex items-center justify-center p-1 shrink-0">
             <ApontualLogo />
           </div>
-          <span className="font-extrabold text-navy-900 text-base sm:text-lg tracking-tight">
-            Apontual
-          </span>
+          <div className="flex flex-col leading-none">
+            <span className="font-extrabold text-navy-900 text-base sm:text-lg tracking-tight leading-tight">
+              Apontual
+            </span>
+            <span className="text-[10px] sm:text-[11px] font-semibold text-slate-600 tracking-tight leading-tight">
+              Gestão Contábil
+            </span>
+          </div>
         </a>
 
         {/* Zona 2: Links de Navegação (Desktop) com Menu Cascata */}
